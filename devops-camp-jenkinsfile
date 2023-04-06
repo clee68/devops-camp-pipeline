@@ -58,8 +58,6 @@ environment {
                 //TODO("Lab 4 - Artifact Management"): build the docker db image
             }
             //TODO("Lab 4 - Artifact Management"): clean local docker db image
-            post {
-            }
         }
         //TODO("Lab 7 - Automated Security Scans"): add a stage
         stage('Deploy') {
